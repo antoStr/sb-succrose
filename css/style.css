@@ -21,6 +21,7 @@ header {
 /* Logo + text */
 
 .logo img {
+    user-select: none;
     width: 100px;
 }
 .logo {
@@ -31,29 +32,38 @@ header {
 }
 
 .logo-t {
+    user-select: none;
     font-size: 25px;
     font-style: italic;
-    padding: 10px 20px;
+    padding: 20px 0 10px 30px ;
     align-content: center;
 }
 
 /* nav */
 
 .navbar {
+    user-select: none;
     margin-top: 20px ;
 }
 
-.navbar ul li{
+.navbar ul li {
     margin: 0 10px;
     list-style: none;
     display: inline-block;
 }
 
+.navbar ul li a {
+    cursor: pointer;
+}
+
 .jumbotron {
     background-color: #f0e68c;
+    background-image: url(/img/banner.jpg);
     width: 100%;
     height: 1000px;
+    background-repeat: no-repeat;
     margin-bottom: 20px;
+    background-size: contain;
 }
 
 .top-bar {
