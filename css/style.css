@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 .container {
@@ -9,11 +10,43 @@
     margin: 30px auto;
 }
 
+/* Header */
+
 header {
     background-color: #ff69b4;
-    width: 100%;
-    height: 200px;
     margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* Logo + text */
+
+.logo img {
+    width: 100px;
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 500;
+    flex-wrap: wrap;
+}
+
+.logo-t {
+    font-size: 25px;
+    font-style: italic;
+    padding: 10px 20px;
+    align-content: center;
+}
+
+/* nav */
+
+.navbar {
+    margin-top: 20px ;
+}
+
+.navbar ul li{
+    margin: 0 10px;
+    list-style: none;
+    display: inline-block;
 }
 
 .jumbotron {
