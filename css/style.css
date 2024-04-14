@@ -5,15 +5,19 @@
     font-family: "Montserrat", sans-serif;
 }
 
+html {
+    background-color: #62a28f;
+}
+
 .container {
-    width: 70%;
+    width: 80%;
     margin: 30px auto;
 }
 
 /* Header */
 
 header {
-    background-color: #ff69b4;
+    text-shadow: 8px 5px 12px rgba(0,0,0,0.42);
     margin-bottom: 20px;
     padding: 10px;
 }
@@ -33,8 +37,7 @@ header {
 
 .logo-t {
     user-select: none;
-    font-size: 25px;
-    font-style: italic;
+    font-size: 30px;
     padding: 20px 0 10px 30px ;
 }
 
@@ -46,13 +49,15 @@ header {
 }
 
 .navbar ul li {
-    margin: 0 10px;
+    padding: 0 10px;
     list-style: none;
     display: inline-block;
 }
 
 .navbar ul li a {
     cursor: pointer;
+    text-decoration: none;
+    color: #000;
 }
 
 /* jumbo */
@@ -66,7 +71,6 @@ header {
     
 }
 
-
 .j-text {
     font-weight: 500;
     font-size: 30px;
@@ -74,29 +78,52 @@ header {
     backdrop-filter: blur(5px) brightness(110%) ;
 }
 
+.t-small {
+    font-weight: 200;
+    font-size: 15px;
+}
+
+
 .round-border {
     border-radius: 10px;
 }
 
+/* card / text / h1 */
 
 .top-bar {
-    background-color: #add8e6;
+    display: flex;
     width: 100%;
     height: 140px;
     margin-bottom: 20px;
+    align-items: center;
+}
+
+.text {
+    padding-left: 20px;
 }
 
 .mid {
-    background-color: #1e90ff;
     width: 100%;
     height: 1000px;
     margin-bottom: 20px;
 }
 
+.card {
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+    background-size: cover;
+    width: 80%;
+    height: 200px;
+    text-align: center;
+}
+
 .left-content,
 .center-content {
+    justify-content: center;
     height: 780px;
-    background-color: #add8e6;
 }
 
 .center-content {
