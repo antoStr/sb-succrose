@@ -74,7 +74,7 @@ header {
 .j-text {
     font-weight: 500;
     font-size: 30px;
-    padding: 150px 40% 100px 30px;
+    padding: 150px 40% 50px 40px;
     backdrop-filter: blur(5px) brightness(110%) ;
 }
 
@@ -104,26 +104,27 @@ header {
 
 .mid {
     width: 100%;
-    height: 1000px;
     margin-bottom: 20px;
 }
 
-.card {
-    display: flex;
-    justify-content: center;
-}
+/* card */
+
 
 .card img {
-    background-size: cover;
-    width: 80%;
+    object-fit: cover;
+    width: 100%;
     height: 200px;
     text-align: center;
 }
 
-.left-content,
-.center-content {
-    justify-content: center;
-    height: 780px;
+.card-text {
+    margin: 30px 0 0 0;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
 }
 
 .center-content {
@@ -138,7 +139,14 @@ header {
 footer {
     width: 100%;
     height: 200px;
-    background-color: #8a2be2;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.footer-text span{
+    color: red;
 }
 
 .left {
