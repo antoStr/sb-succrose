@@ -17,7 +17,7 @@ html {
 /* Header */
 
 header {
-    text-shadow: 8px 5px 12px rgba(0,0,0,0.42);
+    color: #fff;
     margin-bottom: 20px;
     padding: 10px;
 }
@@ -26,19 +26,19 @@ header {
 
 .logo img {
     user-select: none;
-    width: 100px;
+    width: 80px;
 }
 .logo {
     display: flex;
     align-items: center;
-    font-weight: 500;
+    font-weight: 600;
     flex-wrap: wrap;
 }
 
 .logo-t {
     user-select: none;
-    font-size: 30px;
-    padding: 20px 0 10px 30px ;
+    font-size: 40px;
+    padding: 20px 0 10px 10px ;
 }
 
 /* nav */
